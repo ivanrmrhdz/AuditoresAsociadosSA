@@ -695,58 +695,7 @@
     </section>
     <!-- /servicios Section -->
 
-    <section id="consultorias" class="featured-services section light-background">
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Consultorias</h2>
-        <p>
-          <span class="description-title">Consultorias</span>
-          <span>Especializadas</span>
-        </p>
-      </div>
-      <!-- End Section Title -->
-
-      <div class="container">
-        <div class="row gy-4 justify-content-center">
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-activity icon"></i></div>
-              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
-              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div><!-- End Service Item -->
-
-
-
-        </div>
-      </div>
-    </section>
-
+   
     <!-- contactanos Section -->
     <section id="contactanos" class="contactanos section">
       <!-- Section Title -->
@@ -973,44 +922,6 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <script>
-    // Define la lista de IDs específicos para los que se aplicará el script
-    const targetIds = [
-      "#servicios-certificacion",
-      "#servicios-estados-financieros",
-      "#servicios-sociedades",
-      "#servicios-libros-contables",
-      "#servicios-revision",
-      "#servicios-analisis-de-resultados"
-    ];
-
-    // Construye el selector de CSS para encontrar los enlaces que apuntan a esos IDs
-    const selector = targetIds.map(id => a[href = "${id}"]).join(', ');
-
-    // Selecciona solo los enlaces que coinciden con la lista
-    document.querySelectorAll(selector).forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        // Previene el salto instantáneo por defecto
-        e.preventDefault();
-
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-
-        if (targetElement) {
-          const offset = 80; // Tu offset de 80px
-          const elementPosition = targetElement.getBoundingClientRect().top;
-          const offsetPosition = elementPosition + window.pageYOffset - offset;
-
-          // Realiza el scroll suave a la posición calculada
-          window.scrollTo({
-            top: offsetPosition,
-            behavior: "smooth"
-          });
-        }
-      });
-    });
-  </script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
