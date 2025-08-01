@@ -1647,13 +1647,13 @@ border-radius: 1%;
 # Add Scroll to Services
 --------------------------------------------------------------*/
 
-.servicios-certificacion,
-.servicios-estados-financieros,
-.servicios-sociedades,
-.servicios-libros-contables,
-.servicios-revision,
-.servicios-analisis-de-resultados{
-scroll-margin-top: 300px;
+#servicios-certificacion,
+#servicios-estados-financieros,
+#servicios-sociedades,
+#servicios-libros-contables,
+#servicios-revision,
+#servicios-analisis-de-resultados{
+scroll-margin-top: 80px;
 }
 
 
