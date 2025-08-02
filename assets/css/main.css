@@ -795,7 +795,7 @@ section,
 
   section,
   .section {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 90px;
   }
 }
 
@@ -844,7 +844,7 @@ section,
   padding: 60px 0;
   display: flex;
   align-items: center;
-  background: url("../img/hero-bg.jpg") top left;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
 
@@ -1968,3 +1968,9 @@ border-radius: 1%;
 .starter-section {
   /* Add your styles here */
 }
+
+.modal-header-custom {
+  background-color:var(--accent-color); /* Tono de azul similar al de la imagen */
+  color: white;
+}
+
