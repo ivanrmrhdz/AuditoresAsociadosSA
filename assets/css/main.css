@@ -863,7 +863,7 @@ section,
 }
 .inicio .text-container{
   padding-top: 15px;
-background: color-mix(in srgb, var(--heading-color), transparent 35%);
+background: color-mix(in srgb, var(--heading-color), transparent 20%);
 border-radius: 1%;
 }
 
